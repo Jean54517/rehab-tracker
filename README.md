@@ -10,6 +10,7 @@
 - Sitting & standing tracking：记录久坐、久站时长，支持分段累加或直接填写当天总时长。
 - Trend analysis：通过图表分析疼痛、活动、睡眠和久坐久站之间的变化关系。
 - Data export：支持 JSON 备份和 CSV 导出。
+  
 技术特点：
 - 纯前端网页，无需后端服务器。
 - 使用浏览器 Local Storage 保存数据。
