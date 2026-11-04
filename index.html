@@ -160,12 +160,5 @@ function importJSON(e){let f=e.target.files[0];if(!f)return;let reader=new FileR
 function clearData(){if(!confirm('确定清空所有疼痛、训练、运动、步数、睡眠和久坐 / 久站记录？此操作不可撤销，建议先导出备份。'))return;state.data={pain:[],exercise:[],sport:[],steps:[],sleep:[],posture:[]};save();toast('记录已清空')}
 document.getElementById('recordDate').value=today();renderAll();
 window.addEventListener('resize',()=>{if(document.getElementById('stats').classList.contains('active'))renderStats()});
-</script>
-<!-- GoatCounter 网站访问统计 -->
-<script
-  data-goatcounter="https://rehab-tracker.goatcounter.com/count"
-  async
-  src="https://gc.zgo.at/count.js">
-</script>
 </body>
 </html>
